@@ -66,7 +66,7 @@ struct LinearProgressView: View {
 }
 ```
 
-## Usage - UIKit
+## Usage - UIKit
 ```swift
 // adding
 var progressBarHostingController = UIHostingController(rootView: LinearProgressView(progress: 0.0))
@@ -102,7 +102,7 @@ fileprivate func setSwiftUIView(_ child: UIHostingController<ProgressBarView>) {
 LinearProgressView(progress: 0.0)
 ```
 
-## Auto Layout function
+## Auto Layout function
 ```swift
 // set auto constraints
 
