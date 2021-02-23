@@ -11,7 +11,7 @@ struct LinearProgressView: View {
     @State var width = UIScreen.main.bounds.width
     @State var height = UIScreen.main.bounds.height
     @State var color = Color.red
-    @Binding var progress: Double
+    @State var progress: Double
     
     var body: some View {
         withAnimation {
